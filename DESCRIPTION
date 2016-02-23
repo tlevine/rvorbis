@@ -1,0 +1,10 @@
+Package: vorbis
+Title: voRbis
+Version: 0.0.1
+Authors@R: person("Thomas", "Levine",
+                  email = "_@thomaslevine.com",
+                  role = c("aut", "cre"))
+Description: Encode Ogg Vorbis Streams
+Depends: R (>= 3.2.2)
+License: What license is it under?
+LazyData: true
