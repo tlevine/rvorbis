@@ -7,3 +7,7 @@ Alternative in Python
 Alternative in aplay
 
     cat a.raw | aplay -t raw -f U8 -r 8000
+
+Or just OSS
+
+    cat a.raw > /dev/dsp
