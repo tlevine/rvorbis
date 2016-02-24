@@ -1,5 +1,9 @@
-Alternative, in Python
+Alternative in Python
 
     import ossaudiodev
     sound = ossaudiodev.open('r').read(8000)
     ossaudiodev.open('w').write(sound)
+
+Alternative in aplay
+
+    cat a.raw | aplay -t raw -f U8 -r 8000
